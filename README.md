@@ -35,11 +35,12 @@
 
 9. Sigue las instrucciones en pantalla para jugar "4 en línea" con el servidor.
 
-Instrucciones de uso del juego.
+## Instrucciones de uso del juego.
 
 1. El servidor debe ejecutarse antes que el cliente.
 2. El servidor debe ejecutarse con un puerto como argumento.
 3. El cliente debe ejecutarse con la dirección IP y puerto del servidor como argumentos.
 4. El cliente debe conectarse al servidor antes de poder jugar.
-5. El cliente debe esperar su turno para hacer un movimiento.
+5. Puede empezar a jugar una vez que el cliente se haya conectado al servidor.
 6. El cliente debe ingresar un número de columna válido para dejar caer un disco.
+7. El juego termina cuando un jugador alinea cuatro discos o la rejilla está llena sin un ganador (empate).
