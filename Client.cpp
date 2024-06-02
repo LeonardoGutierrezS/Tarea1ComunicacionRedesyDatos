@@ -19,11 +19,9 @@ private:
     void imprimirTablero(const char tablero[6][7]);
 };
 
-
 PartidaCliente::PartidaCliente(const char* ip, int port) {
     conectarServidor(ip, port);
 }
-
 
 void PartidaCliente::conectarServidor(const char* ip, int port) {
 
