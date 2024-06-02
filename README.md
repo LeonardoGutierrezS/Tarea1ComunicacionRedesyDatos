@@ -23,11 +23,11 @@ Instrucciones de compilación y ejecución
 
 6. Ejecuta el servidor con el siguiente comando (reemplaza <puerto> por el puerto que desees):
 
-```bash ./server <puerto> ```
+```bash  ./server <puerto> ```
 
 7. Compila el cliente con el siguiente comando:
 
-```bash make client ```
+``` bash make client ```
 
 8. Ejecuta el cliente con el siguiente comando (reemplaza <ip> y <puerto> por la dirección IP y puerto del servidor, respectivamente):
 
