@@ -14,7 +14,8 @@ Instrucciones de compilación y ejecución
 5 para eliminar los archivos generados por el comando make, ejecuta el siguiente comando:
 
 ```bash 
-    make clean ```
+    make clean
+```
 6. Ejecuta el servidor con el siguiente comando (reemplaza <puerto> por el puerto que desees):
 ``` ./server <puerto> ```
 7. Compila el cliente con el siguiente comando:
