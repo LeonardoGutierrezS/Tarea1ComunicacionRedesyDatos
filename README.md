@@ -1,8 +1,8 @@
-#Juego 4 en línea
+# Juego 4 en línea
 
 >"4 en línea" (también conocido como "Conecta 4") es un juego de mesa para dos jugadores en el que se >turnan para dejar caer discos de colores en una rejilla vertical de siete columnas y seis filas. El >objetivo es ser el primero en alinear cuatro de tus propios discos consecutivos en cualquier dirección: >horizontal, vertical o diagonal. Los jugadores deben planear sus movimientos estratégicamente para >conectar cuatro discos mientras bloquean a su oponente de hacer lo mismo. El juego termina cuando uno de >los jugadores logra alinear cuatro discos o cuando la rejilla está llena sin un ganador, resultando en >un empate. En esta tarea de programación, tuve que realizar el juego en C++ con el modelo de >Cliente-Servidor.
 
-Instrucciones de compilación y ejecución
+## Instrucciones de compilación y ejecución
 
 1. Abre una terminal.
 2. Clona el repositorio con el siguiente comando:
