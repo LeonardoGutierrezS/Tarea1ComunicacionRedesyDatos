@@ -7,31 +7,31 @@ Instrucciones de compilación y ejecución
 1. Abre una terminal.
 2. Clona el repositorio con el siguiente comando:
 
-```bash git clone https://github.com/LeonardoGutierrezS/Tarea1ComunicacionRedesyDatos.git ```
+``` git clone https://github.com/LeonardoGutierrezS/Tarea1ComunicacionRedesyDatos.git ```
 
 3. Cambia al directorio del proyecto con el siguiente comando:
 
-```bash cd Tarea1ComunicacionRedesyDatos ```
+``` cd Tarea1ComunicacionRedesyDatos ```
 
 4. Compila el servidor con el siguiente comando:
 
-```bash make ```
+``` make ```
 
 5 para eliminar los archivos generados por el comando make, ejecuta el siguiente comando:
 
-```bash make clean```
+``` make clean```
 
 6. Ejecuta el servidor con el siguiente comando (reemplaza <puerto> por el puerto que desees):
 
-```bash  ./server <puerto> ```
+``` ./server <puerto> ```
 
 7. Compila el cliente con el siguiente comando:
 
-``` bash make client ```
+``` make client ```
 
 8. Ejecuta el cliente con el siguiente comando (reemplaza <ip> y <puerto> por la dirección IP y puerto del servidor, respectivamente):
 
-```bash ./client <ip> <puerto> ```
+``` ./client <ip> <puerto> ```
 
 9. Sigue las instrucciones en pantalla para jugar "4 en línea" con el servidor.
 
