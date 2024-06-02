@@ -13,7 +13,7 @@
 
 ``` cd Tarea1ComunicacionRedesyDatos ```
 
-4. Compila el servidor con el siguiente comando:
+4. Compila el servidor usando el siguiente comando:
 
 ``` make ```
 
@@ -23,11 +23,11 @@
 
 6. Ejecuta el servidor con el siguiente comando (reemplaza <puerto> por el puerto que desees):
 
-``` ./server <puerto> ```
+``` ./Server <puerto> ```
 
 7. Compila el cliente con el siguiente comando:
 
-``` make client ```
+``` make Client ```
 
 8. Ejecuta el cliente con el siguiente comando (reemplaza <ip> y <puerto> por la dirección IP y puerto del servidor, respectivamente):
 
