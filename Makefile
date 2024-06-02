@@ -9,6 +9,6 @@ Server: Server.cpp
 Client: Client.cpp
 	g++ -o Client Client.cpp
 
-# Eliminar archivos generados
+# Eliminar archivos generados por la compilación
 clean:
 	rm -f servidor cliente
