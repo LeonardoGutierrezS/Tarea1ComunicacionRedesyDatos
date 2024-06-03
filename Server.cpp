@@ -38,7 +38,7 @@ PartidaServidor::PartidaServidor(int puerto) {
     direccion_servidor.sin_addr.s_addr = INADDR_ANY;
     direccion_servidor.sin_port = htons(puerto);
 
-    // Enlaza el socket a la dirección y puerto especificados y verifica si se enlazó correctamente
+    // Enlaza el socket a la dirección y puerto especificados.
     if (bind(socket_servidor, (struct sockaddr *)&direccion_servidor, sizeof(direccion_servidor)) < 0) {
         perror("Error al enlazar el socket al puerto especificado");
         exit(EXIT_FAILURE);
@@ -64,7 +64,8 @@ bool PartidaServidor::comprobarGanador(char tablero[6][7], char jugador) {
         }
     }
     
-    // Verifica victoria diagonal (de arriba a la derecha a abajo a la izquierda)
+    // Verifica victoria diagonal 
+    //(Desde esquina superior derecha hacia esquina inferior izquierda)
     for (int fila = 3; fila < 6; ++fila) {
         for (int col = 0; col < 4; ++col) {
             if (tablero[fila][col] == jugador &&
@@ -86,7 +87,8 @@ bool PartidaServidor::comprobarGanador(char tablero[6][7], char jugador) {
             }
         }
     }
-    // Verifica victoria diagonal (de arriba a la izquierda a abajo a la derecha)
+    // Verifica victoria diagonal 
+    //(desde esquina superior izquierda hacia esquina inferior derecha)
     for (int fila = 0; fila < 3; ++fila) {
         for (int col = 0; col < 4; ++col) {
             if (tablero[fila][col] == jugador &&
@@ -99,7 +101,7 @@ bool PartidaServidor::comprobarGanador(char tablero[6][7], char jugador) {
     }
     return false;
 }
-
+// Imprime el juego 4 en línea
 void PartidaServidor::dibujarTablero(char tablero[6][7]) {
     std::cout << "4 en Línea" << std::endl;
     for (int i = 0; i < 6; ++i) {
